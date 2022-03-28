@@ -3,13 +3,13 @@ import React, { useEffect, useState } from "react";
 import SingleCard from "./SingleCard";
 
 const cardImages = [
-  {"src":"/image/g-idle.png",matched: false},
-  {"src":"/image/blackpink.png",matched: false},
-  {"src":"/image/mamamoo.png",matched: false},
-  {"src":"/image/monst-x.png",matched: false},
-  {"src":"/image/exo.png",matched: false},
-  {"src":"/image/seventeen.png",matched: false}
-];
+  {"src":"/img/g-idle.png",matched: false},
+  {"src":"/img/blackpink.png",matched: false},
+  {"src":"/img/mamamoo.png",matched: false},
+  {"src":"/img/monst-x.png",matched: false},
+  {"src":"/img/exo.png",matched: false},
+  {"src":"/img/seventeen.png",matched: false}
+]
 
 function App() {
   const [cards, setCards] = useState([]);
@@ -64,7 +64,7 @@ const resetTurn = () => {
  
 useEffect(()=>{
   shuffleCards()
-})
+},[])
 
 
   return (
