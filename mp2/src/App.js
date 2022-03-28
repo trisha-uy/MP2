@@ -6,7 +6,7 @@ const cardImages = [
   {"src":"/img/g-idle.png",matched: false},
   {"src":"/img/blackpink.png",matched: false},
   {"src":"/img/mamamoo.png",matched: false},
-  {"src":"/img/monst-x.png",matched: false},
+  {"src":"/img/monsta-x.png",matched: false},
   {"src":"/img/exo.png",matched: false},
   {"src":"/img/seventeen.png",matched: false}
 ]
